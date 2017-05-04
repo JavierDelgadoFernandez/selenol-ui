@@ -1,0 +1,12 @@
+# KDevelop files.
+.kdev4/
+*.kdev4
+
+# Build files.
+node_modules/
+*/bundle.js
+*/bundle.css
+.directory
+build/
+production/
+coverage/

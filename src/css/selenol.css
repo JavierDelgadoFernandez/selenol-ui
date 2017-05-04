@@ -1,0 +1,58 @@
+
+.main-sidebar {
+	padding-top: inherit
+}
+
+.node rect {
+  fill: #ddd;
+}
+
+.node text {
+  font: 10px sans-serif;
+}
+
+.node tspan:last-child {
+  font-size: 9px;
+  fill-opacity: 0.8;
+}
+
+.node--internal text {
+  font-weight: bold;
+}
+
+.node--leaf rect {
+  fill-opacity: 0.6;
+}
+
+
+.ace_gutter-cell.ace_breakpoint { 
+    border-radius: 20px 0px 0px 20px; 
+    box-shadow: 0px 0px 1px 1px red inset; 
+}
+
+
+rect {
+  stroke: #eee;
+  fill: #aaa;
+  fill-opacity: .8;
+}
+
+rect.parent {
+  cursor: pointer;
+  fill: steelblue;
+}
+
+text {
+  pointer-events: none;
+}
+
+.modal-body {
+	max-height: 420px;
+	overflow-y: auto;
+}
+
+.curentLineHightlight {
+	position: absolute;
+	z-index: 20;
+	background-color: #088A08;
+}
